@@ -147,7 +147,7 @@ UAREA uareaobj;
 //
 //  Function Name :     InitialiseUAREA
 //  Description :       It is used to intialise the contents UAREA
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              10/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -170,7 +170,7 @@ void InitialiseUAREA()
 //
 //  Function Name :     InitialiseSuperblock
 //  Description :       It is used to intialise the contents of super block
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              10/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -188,7 +188,7 @@ void InitialiseSuperblock()
 //
 //  Function Name :     CreateDILB
 //  Description :       It is used to create Linked List of Inodes
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              10/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -234,7 +234,7 @@ void CreateDILB()
 //
 //  Function Name :     StartAuxilaryDataInitialisation
 //  Description :       It is used to intialise the Auxilary data
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              10/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -259,7 +259,7 @@ void StartAuxilaryDataInitialisation()
 //
 //  Function Name :     DisplayHelp
 //  Description :       It is used to Display the information about commands
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              11/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -292,7 +292,7 @@ void DisplayHelp()
 //  Description :       It is used to Display the manual page of the command
 //  Input :             It accepts the command name
 //  Output :            Displays the manual details of the command
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              11/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -364,7 +364,7 @@ void ManPage(
 //  Description :       It is used to check whether the given file name is exist or not
 //  Input :             It accepts the file name
 //  Output :            It returns boolean value (True : if present False : if not present)
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              11/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -396,7 +396,7 @@ bool IsFileExists(
 //  Description :       It is used to create a new regular file
 //  Input :             It accepts the file name and permission
 //  Output :            It returns the file descriptor
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              11/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -504,7 +504,7 @@ int CreateFile(
 //  Description :       It is used to delete a regular file
 //  Input :             It accepts the file name 
 //  Output :            It returns nothing
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              15/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -569,7 +569,7 @@ int UnlinkFile(
 //  Description :       It is used to display the information about all files in the directory
 //  Input :             It accepts Nothimg
 //  Output :            It returns nothing
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              15/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -596,7 +596,7 @@ void ls_File()
 //  Description :       It is used to display the information about given one file
 //  Input :             It accepts file name
 //  Output :            It returns nothing
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              15/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -671,7 +671,7 @@ int stat_File(
 //  Input :             It accepts file descriptor (fd), Address of Buffer (contains data),
 //                      Size of data that we want to write
 //  Output :            It returns Number of bytes successfully written into the file
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              15/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -733,7 +733,7 @@ int write_File(
 //  Input :             It accepts file descriptor (fd), Address of empty Buffer (no data),
 //                      Size of data that we want to write
 //  Output :            It returns Number of bytes successfully read from the file
-//  Author :            Sakshi Pankaj Borhade
+//  Author :            Tushar Vijay Shirsat
 //  Date :              15/08/2025
 //
 ///////////////////////////////////////////////////////////////////////
@@ -1028,4 +1028,5 @@ int main()
     }   // End of while (Custom Shell)
 
     return 0;
+
 }   // End of main
